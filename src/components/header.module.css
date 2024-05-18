@@ -1,0 +1,23 @@
+.container {
+  margin: 50px 0;
+  text-align: center;
+}
+h1 {
+  color:white;
+  margin-bottom: 20px;
+}
+p {
+  color:white;
+}
+a {
+  text-decoration: none;
+  color:rgba(253,45,206,1);
+  background-color: #dce4ea;
+  padding: 3px 5px;
+  border-radius: 5px;
+  transition: 0.2s all ease-in-out;
+}
+a:hover {
+  color: #ebeff2;
+  background-color:rgba(253,45,206,1);
+}

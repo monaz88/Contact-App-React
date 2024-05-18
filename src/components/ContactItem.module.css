@@ -1,0 +1,43 @@
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow:#532474 0 7px 29px 0;
+
+  color:white;
+  padding: 10px 20px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.item p {
+  flex-basis: 0;
+  flex-grow: 1;
+}
+
+.item span {
+  display: inline-block;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-right: 10px;
+  background-color:#f3f0f7;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  border-radius: 50%;
+}
+
+.item button {
+  width: 35px;
+  height: 35px;
+  border: none;
+  background-color:white;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+}
+
+.item button:hover {
+  font-size: 1.5rem;
+}
